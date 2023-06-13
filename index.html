@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <h1>Contact Book</h1>
+        <button class="add-btn">+ Add new contact</button>
+      </div>
+      <div class="header">
+        <h3 class="header-text">Name</h3>
+        <h3 class="header-text">Surname</h3>
+        <h3 class="header-text">Phone</h3>
+        <h3 class="header-text">Image</h3>
+        <div class="div5">.........................</div>
+      </div>
+      <div class="container1"></div>
+    </div>
+    <div class="modal" id="add-contact">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Add contact</h3>
+          <button id="close-modal">X</button>
+        </div>
+        <form class="add-form">
+          <input type="text" id="name-input" placeholder="Enter Name" />
+          <input type="text" id="surname-input" placeholder="Enter Surname" />
+          <input type="text" id="phone-input" placeholder="Enter Phone" />
+          <input type="url" id="imagine-input" placeholder="Enter Image URL" />
+          <div class="modal-footer">
+            <button id="edit-cancel">Cancel</button>
+            <button class="edit-submit">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- modal 2 edit -->
+    <div class="modal2" id="add2-contact">
+      <div class="modal2-content">
+        <div class="modal2-header">
+          <h3>Add contact</h3>
+          <button id="close2-modal">X</button>
+        </div>
+        <form class="add2-form">
+          <input type="text" id="name2-input" placeholder="Enter Name" />
+          <input type="text" id="surname2-input" placeholder="Enter Surname" />
+          <input type="text" id="phone2-input" placeholder="Enter Phone" />
+          <input type="url" id="imagine2-input" placeholder="Enter Image URL" />
+          <div class="modal2-footer">
+            <button id="edit2-cancel">Cancel</button>
+            <button class="edit2-submit">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
